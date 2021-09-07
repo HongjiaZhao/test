@@ -1,1 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T17:05:10.362Z" agent="5.0 (Windows)" version="14.9.9" etag="PKORalBzNNs84kHUAq7I" type="github"><diagram id="jMYbxj11P97IXhtgL7Tx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-07T18:24:09.309Z" agent="5.0 (Windows)" etag="7BmX9mx31w_wJqsTp1LB" version="14.9.9" type="github">
+  <diagram id="jMYbxj11P97IXhtgL7Tx" name="Page-1">
+    <mxGraphModel dx="1082" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="330" as="sourcePoint" />
+            <mxPoint x="290" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-4" value="User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="504" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-5" value="Card" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-9" value="&lt;font color=&quot;#FF00FF&quot;&gt;Each user has their own card(0 - n)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="220" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-10" value="Database" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="504" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-12" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VcB-9IwK9p8fEHal2fNu-10" target="VcB-9IwK9p8fEHal2fNu-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-13" value="ATM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-14" value="One card just belongs to one user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-15" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VcB-9IwK9p8fEHal2fNu-13" target="VcB-9IwK9p8fEHal2fNu-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="370" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-16" value="For user to store and get money" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-17" value="Store the information about user(name, id ,else) and card(deposit, valid or not)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="624" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-18" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-19" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VcB-9IwK9p8fEHal2fNu-18" target="VcB-9IwK9p8fEHal2fNu-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="410" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-20" value="Check the information(passward) and give the feedback" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="420" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-21" value="Display" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="504" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-22" value="" style="endArrow=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VcB-9IwK9p8fEHal2fNu-21" target="VcB-9IwK9p8fEHal2fNu-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="410" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-23" value="&lt;div align=&quot;left&quot;&gt;1.To check how much deposit the user has&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.Show apologize if the card user gave is marked as lost&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3.Show there is no enough cash in ATM if necessary&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.Show information about the transaction(if sucess)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;information(transaction number, transaction type, amount withdrawn and account balance)&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="560" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-24" value="&lt;div align=&quot;left&quot;&gt;1.Allow user enter card number(5 numbers) and PIN&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.Judge the information(card number correct, card valid, PIN correct)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3.Confiscate the card if PIN is not correct for 3 times&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.Reject coins if user want to store coins&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;5.Check whether there are enough deposit for user want to get&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;6.Check whether there are enough money in ATM for user to get money&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;(provide error message and cancel the transaction)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;7.Give the chance to user whether cancel this deal in the end&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="570" width="385" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-25" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VcB-9IwK9p8fEHal2fNu-13" target="VcB-9IwK9p8fEHal2fNu-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="450" as="sourcePoint" />
+            <mxPoint x="430" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-26" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF33FF;" edge="1" parent="1" source="VcB-9IwK9p8fEHal2fNu-5" target="VcB-9IwK9p8fEHal2fNu-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="420" as="sourcePoint" />
+            <mxPoint x="430" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-27" value="ATM manager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-28" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VcB-9IwK9p8fEHal2fNu-13" target="VcB-9IwK9p8fEHal2fNu-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="430" as="sourcePoint" />
+            <mxPoint x="410" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VcB-9IwK9p8fEHal2fNu-29" value="Check and add cash each day" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
